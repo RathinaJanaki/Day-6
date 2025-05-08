@@ -1,0 +1,12 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  h1, h2 {
+    font-weight: bold;
+  }
+  
+  .progress-bar {
+    font-size: 14px;
+  }
+  

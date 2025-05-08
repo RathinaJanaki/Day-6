@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header/Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">MyName</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="text-center bg-light py-5">
+    <div class="container">
+      <h1>Hello, I'm <strong>Rathina Janaki</strong></h1>
+      <p class="lead">A passionate web developer</p>
+      <a href="#portfolio" class="btn btn-primary">View My bio</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container row mx-auto">
+      <div class="col-md-4">
+        <img src="images 1.jpeg" class="img-fluid rounded-circle" alt="Profile Picture">
+      </div>
+      <div class="col-md-8">
+        <h2>About Me</h2>
+        <p>I am a frontend developer with a passion for creating beautiful, user-friendly websites... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non ex, assumenda repudiandae necessitatibus aliquid ab cumque perferendis laudantium odio quod inventore mollitia cupiditate saepe blanditiis nostrum iusto voluptas nemo. Culpa.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Skills</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h5>HTML</h5>
+          <div class="progress">
+            <div class="progress-bar" style="width: 90%">90%</div>
+          </div>
+          <h5>CSS</h5>
+          <div class="progress">
+            <div class="progress-bar bg-success" style="width: 85%">85%</div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h5>JavaScript</h5>
+          <div class="progress">
+            <div class="progress-bar bg-warning" style="width: 75%">75%</div>
+          </div>
+          <h5>Bootstrap</h5>
+          <div class="progress">
+            <div class="progress-bar bg-info" style="width: 80%">80%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Projects</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images 2.jpeg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">portfolio</h5>
+              <p class="card-text">Short description of the project. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim aut consectetur esse nisi omnis vitae voluptates illo quam dignissimos. Facere laborum excepturi repudiandae quos optio sint autem earum reprehenderit saepe? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minus, iure cum voluptatum quae odio doloribus commodi, itaque aliquam fugiat eligendi in veritatis quo quia? Sapiente beatae sint in amet.</p>
+              <a href="#" class="btn btn-outline-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more project cards -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="bg-light py-5 text-center">
+    <div class="container">
+      <h2>Resume</h2>
+      <p>Download my resume: <a href="Rathna resume.pdf" class="btn btn-secondary" download>Download PDF</a></p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" id="name" class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" id="email" class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea id="message" class="form-control" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      &copy; 2025 Rathina Janaki | <a href="https://www.linkedin.com/feed/" class="text-white">LinkedIn</a> | <a href="https://github.com/RathinaJanaki" class="text-white">GitHub</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
